@@ -1,0 +1,234 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  justify-content: center;
+  width: 1200px;
+}
+
+.container {
+  width: 100%;
+}
+
+.userProfile, 
+.newTweet,
+.displayNew,
+.tweets {
+  margin: 2px;
+  border-radius: 20px;
+}
+
+/*
+  ====================================
+  TITLE
+  ====================================
+*/
+
+h1.title {
+  font-family: "Black Han Sans", "Times New Roman", sans-serif;
+  color: #F0E5FA;
+  font-size: 50px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/*
+  ====================================
+  USER PROFILE
+  ====================================
+*/
+
+.userProfile {
+  height: 100px;
+  border: 1px solid #BFBFF2; 
+  padding: 10px;
+  font-family: "Montserrat", "Times New Roman", sans-serif;
+}
+
+h3.username {
+  font-size: 30px;
+  position: relative;
+  bottom: 10px;
+  color: #737373;
+  left: 10px;
+  font-weight: bold;
+}
+
+h3.username:hover {
+  color: #B39AE5;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/*
+  ====================================
+  ADD NEW TWEETS
+  ====================================
+*/
+
+
+.newTweet {
+  height: 150px;
+  border: 1px solid #BFBFF2;
+  background-color: #F0E5FA;
+  border-radius: 10px;
+  margin: 5px;
+  font-family: "Montserrat", "Times New Roman", sans-serif;
+}
+
+.typeHere {
+  color: black;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  word-wrap: normal;
+  background-color: white;
+}
+
+textarea {
+  border-color: #D3D3D3;
+  outline: none;
+  overflow: auto;
+  font-family: "Montserrat", "Times New Roman", sans-serif;
+  font-size: 15px;
+  color: gray;
+  resize: none;
+  width: 98%;
+}
+
+/*
+  ====================================
+  CONTENT
+  ====================================
+*/
+
+.newsfeed {
+  height: auto;
+  border: 1px solid #999999;
+  border-radius: 10px;
+}
+
+.friendsTweet {
+  height: auto;
+  margin: 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.singleTweet {
+  font-weight: bold;
+  text-align: left;
+  border: 1px solid #BFBFF2;
+  height: auto;
+  margin: 2px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+p.content {
+  font-size: 15px;
+  font-family: "Montserrat", "Times New Roman", sans-serif;
+  position: relative;
+  left: 50px;
+}
+
+
+p.timestamp {
+  float: right;
+  position: relative;
+  bottom: 15px;
+  font-size: 10px;
+  font-family: "Montserrat", "Times New Roman", sans-serif;
+  color: #999999;
+}
+
+a.user {
+  color: #737373;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Montserrat", "Times New Roman", sans-serif;
+}
+
+a.user:hover {
+  color: #C2AEEA;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*
+  ====================================
+  BUTTONS
+  ====================================
+*/
+
+#click1 {
+  height: 35px;
+  border: 1px solid gray;
+  margin-bottom: 3px;
+  width: 100%;
+  padding: 5px;
+  display: grid;
+  text-align: center;
+  background-color: #FFF0F5;
+  color: #FFB6C1;
+  font-size: 120%;
+  border-radius: 20px;
+  font-family: "Montserrat", "Times New Roman", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: none;
+}
+
+#click1:hover {
+  background: #FFB6C1;
+  color: white;
+  cursor: pointer;
+}
+
+.submit {
+  height: auto;
+  width: auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-right: 15px; 
+  margin-bottom: 5px;
+  float: right;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #C2AEEA;
+  color: white;
+  font-family: "Montserrat", "Times New Roman", sans-serif;
+  font-size: 18px;
+  outline: none;
+}
+
+.submit:hover {
+  background-color: #B39AE5;
+  color: white;
+  cursor: pointer;
+}
+
+/*
+  ====================================
+  FOOTER
+  ====================================
+*/
+
+.footer {
+  background-color: #F0E5FA;
+  margin: 1px auto;
+  text-align: center;
+}
+
+#clickHome {
+  font-family: "Black Han Sans", "Times New Roman", sans-serif;
+  font-size: 13px;
+  color: black;
+  background-color: #F0E5FA;
+  outline: none;
+}
